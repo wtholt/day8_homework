@@ -1,0 +1,65 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background-image: url(road.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	font-size: 16px;
+	font-family: Helvetica sans-serif;
+	font-weight: bolder;
+}
+
+.top-left,
+.top-right,
+.bottom-left,
+.bottom-right {
+	position: absolute;
+}
+
+.top-left {
+	top: 15px;
+	left: 15px;
+}
+
+.top-right {
+	top: 15px;
+	right: 15px;
+}
+
+.bottom-left {
+	bottom: 15px;
+	left: 15px;
+}
+
+.bottom-right {
+	bottom: 15px;
+	right: 15px;
+}
+
+.top-centerpiece {
+	position: relative;
+	top: 40%;
+	text-align: center;
+}
+
+.index-focus {
+	position: relative;
+	top: 50%;
+	text-align: center;
+}
+
+.about-focus {
+	position: relative;
+	top: 50%;
+	text-align: center;
+}
+
+.contact-focus {
+	position: relative;
+	top: 50%;
+	text-align: center;
+}
